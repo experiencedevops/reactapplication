@@ -1,7 +1,7 @@
 {
   "name": "reactinsurance",
   "version": "1.0.0",
-  "description": "React Insurance",
+  "description": "React Insurance App",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
