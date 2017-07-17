@@ -1,5 +1,2 @@
 FROM httpd:2.4
-WORKDIR /
-RUN npm install
-RUN webpack
 COPY ./build/ /usr/local/apache2/htdocs/
