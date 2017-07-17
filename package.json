@@ -1,0 +1,46 @@
+{
+  "name": "reactinsurance",
+  "version": "1.0.0",
+  "description": "React Insurance",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "keywords": [
+    "React",
+    "Microservices"
+  ],
+  "author": "Deva Karthik",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.2",
+    "postcss-loader": "^2.0.5",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.1.0-beta.22",
+    "webpack-dev-server": "^2.1.0-beta.10"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-icons": "^2.2.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "semantic-ui-react": "^0.68.3"
+  }
+}
