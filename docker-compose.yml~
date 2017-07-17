@@ -1,0 +1,13 @@
+version: '2'
+services:
+  uireact:
+    image: mytestimage:latest
+    environment:
+      BASE_URL: http://localhost:8080
+    ports:
+      - "80:80"   
+    networks:
+      - all
+
+networks:
+  all:

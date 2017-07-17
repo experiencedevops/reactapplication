@@ -1,6 +1,6 @@
 class MyConstants  {
    constructor() {
-    this.baseurl = "http://192.168.1.102:9090";
+    this.baseurl = "http://localhost:9090";
   }
 }
 
