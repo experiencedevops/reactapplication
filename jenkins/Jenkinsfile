@@ -17,7 +17,7 @@ node {
    
    stage('SonarQube Analysis') {
     // requires SonarQube Scanner 2.8+
-    def scannerHome = tool 'SonarQube Scanner 3.0.3.778';
+    def scannerHome = tool 'SonarScanner';
     withSonarQubeEnv('${sonarQubeUrl}') {
       sh "${scannerHome}/bin/sonar-scanner -Dproject.settings=sonar-project.properties"
     }
